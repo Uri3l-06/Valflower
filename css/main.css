@@ -194,11 +194,11 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53% / 44% 45% 55% 69%;
-  background-color: #b2f2d0; /* Verde pastel base */
-  background-image: linear-gradient(to top, #b2f2d0, #a3d9a5); /* Degradado verde pastel */
+  background-color: #f7c6c6;
+  background-image: linear-gradient(to top, #f7c6c6, #e89b9b);
   transform-origin: bottom center;
   opacity: 0.9;
-  box-shadow: 0 0 8px rgba(163, 217, 165, 0.5); /* Sombra verde suave pastel */
+  box-shadow: 0 0 8px rgba(232, 155, 155, 0.5);
 }
 .flower__leaf--1 {
   transform: translate(-10%, 1%) rotateY(40deg) rotateX(-50deg);
@@ -215,7 +215,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-image: linear-gradient(to top, #b2f2d0, #a3d9a5); /* Degradado verde pastel */
+  background-image: linear-gradient(to top, #f7c6c6, #e89b9b);
   z-index: 1;
   opacity: 0.8;
 }
@@ -226,9 +226,10 @@ body {
   width: 9vmin;
   height: 4vmin;
   border-radius: 50%;
-  background-color: #d4f5e9;      /* Verde menta pastel */
-  border: 3px solid #a3d9a5;      /* Verde pastel intermedio */
+  background-color: #fbeaea;
+  border: 3px solid #e89b9b;
 }
+
 .flower__white-circle::after {
   content: "";
   position: absolute;
@@ -743,7 +744,7 @@ body {
   width: 30vmin;
   height: 50vmin;
   border-top-left-radius: 100%;
-  border-left: 2vmin solid #1cb5a3;
+  border-left: 2vmin solid #1cb5a3;/* TALLOS DE LA FLOR*/
   background-image: linear-gradient(
     to bottom,
     transparent,
